@@ -1,0 +1,29 @@
+### Experiment ###
+
+name: 'chignolin'
+
+### Data ###
+
+dataset_filename: /scratch/angiod/data/datasets/chignolin/chignolin_angstrom.npz
+pos_to_angstrom: 1.                                                      # pos [R] is in nm
+energy_to_kcalmol: 1.                                                    # energies are in Kj/mol
+angle_to_rad: 1.                                                         # angle params are in DEG
+n_train: 10000
+n_valid: 5000
+n_test: 2000
+
+### Training ###
+
+device: cuda:0
+epochs: 1000
+lr: 1.e-3
+
+log_every: 20
+
+### Refinement ###
+minimization_device: cuda:1
+minimization_lr: 1.e-4
+minimization_tolerance_step_1: .5
+minimization_tolerance_step_2: .5
+minimization_tolerance_step_3: .5
+minimizaiton_max_iter: 10000

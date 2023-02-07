@@ -1,0 +1,17 @@
+molecule: GLY
+
+atoms:
+  # N: BB
+  # H: BB
+  # CA: BB
+  # HA2: BB
+  # HA3: BB
+  # C: BB
+  # O: BB
+  N: BB V1
+  HN: BB
+  CA: BB
+  HA1: BB
+  HA2: BB
+  C: BB V2
+  O: BB

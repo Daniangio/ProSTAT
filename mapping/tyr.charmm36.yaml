@@ -1,0 +1,24 @@
+molecule: TYR
+
+atoms:
+  N: BB V1
+  HN: BB
+  CA: BB
+  HA: BB
+  CB: SC1 V1
+  HB1: SC1
+  HB2: SC1
+  CG: SC1 V2
+  CD1: SC2 V1
+  HD1: SC2
+  CE1: SC2 V2
+  HE1: SC2
+  CZ: SC4 V1
+  OH: SC4 V2
+  HH: SC4
+  CD2: SC3 V1
+  HD2: SC3
+  CE2: SC3 V2
+  HE2: SC3
+  C: BB V2
+  O: BB
